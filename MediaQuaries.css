@@ -1,0 +1,606 @@
+/* Media queries */
+@font-face {
+  font-family: a;
+  src: url(./Fonts/IBMPlexSans-Regular.ttf);
+}
+
+@media (max-width: 1440px) {
+  html {
+    font-size: 65%;
+  }
+  #content-right #btns button {
+    width: 27%;
+    height: 100%;
+    font-size: 1.6rem;
+    padding: 0.8rem 1.2rem;
+  }
+  #content-right #loc {
+    width: 55%;
+  }
+  #content-right #loc #img-1 {
+    width: 2.5rem;
+  }
+  #content-right #loc span {
+    font-size: 1.4rem;
+    display: inline-block;
+  }
+  #content-right #loc #img-2 {
+    width: 2.2rem;
+  }
+  #blog {
+    height: 32%;
+  }
+  #content-left .blog-4 {
+    height: 35% !important ;
+  }
+  #content-left .blog-5 {
+    height: 18% !important ;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+  #content-right #btns button {
+    width: 26%;
+    height: 100%;
+    font-size: 1.4rem;
+    padding: 0.8rem 1.2rem;
+  }
+  #content-right #loc {
+    width: 48%;
+  }
+  #content-right #loc #img-1 {
+    width: 2.4rem;
+  }
+  #content-right #loc span {
+    font-size: 1.3rem;
+    display: inline-block;
+  }
+  #content-right #loc #img-2 {
+    width: 2rem;
+  }
+  #blog {
+    height: 32%;
+  }
+  #content-left .blog-4 {
+    height: 35% !important ;
+  }
+  #content-left .blog-5 {
+    height: 18% !important ;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 45%;
+  }
+  #content-right #btns button {
+    width: 26%;
+    height: 100%;
+    font-size: 1.4rem;
+    padding: 0.8rem 1.2rem;
+  }
+  #content-right #loc {
+    width: 47%;
+  }
+  #content-right #loc #img-1 {
+    width: 2.4rem;
+  }
+  #content-right #loc span {
+    font-size: 1.3rem;
+    display: inline-block;
+  }
+  #content-right #loc #img-2 {
+    width: 2.2rem;
+  }
+  #blog {
+    height: 32%;
+  }
+  #content-left .blog-4 {
+    height: 35% !important ;
+  }
+  #content-left .blog-5 {
+    height: 18% !important ;
+  }
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 45%;
+  }
+  #content-right #btns button {
+    width: 26%;
+    height: 100%;
+    font-size: 1.4rem;
+    padding: 0.8rem 1.2rem;
+  }
+  #content-right #loc {
+    width: 47%;
+  }
+  #content-right #loc #img-1 {
+    width: 2.4rem;
+  }
+  #content-right #loc span {
+    font-size: 1.3rem;
+    display: inline-block;
+  }
+  #content-right #loc #img-2 {
+    width: 2.2rem;
+  }
+  #blog {
+    height: 32%;
+  }
+  #content-left .blog-4 {
+    height: 35% !important ;
+  }
+  #content-left .blog-5 {
+    height: 18% !important ;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 35%;
+  }
+  #content-right #btns button {
+    width: 30%;
+    height: 100%;
+    font-size: 1.5rem;
+    padding: 0.8rem 1.2rem;
+  }
+  #content-right #loc {
+    width: 55%;
+  }
+  #content-right #loc #img-1 {
+    width: 2.4rem;
+  }
+  #content-right #loc span {
+    font-size: 1.6rem;
+    display: inline-block;
+  }
+  #content-right #loc #img-2 {
+    width: 2.5rem;
+  }
+
+  #content-right #info img {
+    width: 2rem;
+    height: 2rem;
+  }
+  #content-right #info span {
+    font-size: 1.4rem;
+  }
+  #content-left #list p {
+    font-size: 2rem;
+  }
+  #content-left #list #bld {
+    font-size: 2rem;
+  }
+  #blog {
+    height: 32%;
+  }
+  #mobile-form-inner h4 {
+    margin-left: 0.8rem;
+  }
+  #content-left .blog-4 {
+    height: 35% !important ;
+  }
+  #content-left .blog-5 {
+    height: 18% !important ;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    overflow-x: hidden;
+  }
+  #nav {
+    width: 100%;
+    height: 2.4rem;
+    background: #f8f9fa;
+    padding: 0.5rem 0rem;
+  }
+
+  #nav #logo {
+    display: none;
+  }
+
+  #nav #search-bar {
+    display: none;
+  }
+
+  #nav p {
+    display: none;
+  }
+  #nav #icons {
+    display: block;
+    position: absolute;
+    right: 0%;
+    width: 10%;
+    margin: 0.7rem 5rem 0.7rem 0rem;
+  }
+
+  #nav-username {
+    display: none;
+  }
+
+  #section-1 {
+    height: 23.6rem;
+  }
+
+  #section-1 #image-wrapper {
+    height: 23.6rem;
+  }
+
+  #section-1 img {
+    height: 23.6rem;
+  }
+
+  #section-1 #content {
+    position: absolute;
+    bottom: 10%;
+    left: 4%;
+  }
+
+  #section-1 #content h1 {
+    color: #fff;
+    font-family: a;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  #section-1 #content p {
+    color: #fff;
+    font-family: a;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  #section-1 #back-arrow {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    z-index: 99;
+    display: block;
+  }
+
+  #section-1 #join-btn {
+    display: block;
+    position: absolute;
+    z-index: 99;
+    right: 6%;
+    bottom: 67%;
+    width: 7.6rem;
+    height: 2.8rem;
+    color: #fff;
+    font-family: a;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: none;
+    border-radius: 4px;
+    border: 0.8px solid #fff;
+  }
+
+  #section-2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  #section-2 #head-info {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.1rem 1.5rem;
+  }
+  #section-2 #head-info h4 {
+    color: #212529;
+    font-family: a;
+    font-size: 2.1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.014px;
+  }
+
+  #section-2 #head-info h5 {
+    color: #212529;
+    font-family: a;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  #section-2 #head-info-r {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #section-2 #content-left {
+    width: 100%;
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+  }
+  #section-2 #content-right {
+    display: none;
+  }
+
+  #content-left #list {
+    display: none;
+  }
+  #blog {
+    min-width: 100%;
+    padding-bottom: 4.5rem;
+    position: relative;
+  }
+
+  #blog-login-btn img {
+    display: block;
+    cursor: pointer;
+    bottom: 2%;
+    right: 2%;
+    z-index: 99;
+    position: fixed;
+    width: 9rem;
+    height: 9rem;
+  }
+
+  #blog p {
+    font-size: 1.9rem;
+  }
+  #mobile-form-inner img {
+    margin-left: 2rem;
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 2.4rem;
+  }
+  #mobile-form-inner h4 {
+    color: #000;
+    font-family: a;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 1.5rem;
+  }
+  #mobile-form-inner h3 p {
+    display: none;
+  }
+  #blog-profile-r #eye {
+    display: none;
+  }
+
+  #blog-profile-r span {
+    position: absolute;
+    right: 41rem;
+    top: 1.5rem;
+    color: #495057;
+    font-family: a;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    margin-top: 0.5rem;
+  }
+
+  #blog-profile-r #share {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-right: 3.3rem;
+  }
+  #blog-profile-r #share-p {
+    display: block;
+  }
+  #blog #btn {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    margin-right: 5%;
+  }
+
+  #registerform-mobile {
+    width: 100%;
+    min-height: 27%;
+    z-index: 999;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 45.5%;
+    background: #f7f8fa;
+    padding: 2rem 3rem;
+    border-radius: 8px 8px 0px 0px;
+    background: #fff;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  #registerform-mobile #mobile-form-inner h1 {
+    color: #000;
+    font-family: a;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  #registerform-mobile #mobile-form-inner form {
+    margin-top: 2rem;
+  }
+
+  #registerform-mobile #mobile-form-inner form input {
+    border-radius: 2px 2px 0px 0px;
+    border: 1px solid #d9d9db;
+    background: #f7f8fa;
+    padding: 1.5rem 2rem;
+    min-width: 49% !important;
+  }
+  #registerform-mobile #mobile-form-inner form button {
+    width: 45%;
+    height: 6rem;
+    border-radius: 2rem;
+    background: #2f6ce5;
+    color: #fff;
+    text-align: center;
+    font-family: a;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    border: none;
+    outline: none;
+    margin-top: 2.5rem;
+  }
+
+  #registerform-mobile #mobile-form-inner form #form-btns {
+    width: 100%;
+    margin-top: 2.5rem;
+    background: #fff;
+    color: #000;
+    font-family: a;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  #registerform-mobile #mobile-form-inner form #form-btns #btn-content {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 2px;
+    border: 0.6px solid #d9d9db;
+    padding: 1rem 0;
+  }
+
+  #loginform-mobile {
+    width: 100%;
+    min-height: 27%;
+    z-index: 999;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 45.5%;
+    background: #f7f8fa;
+    padding: 2rem 3rem;
+    border-radius: 8px 8px 0px 0px;
+    background: #fff;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  #loginform-mobile #mobile-form-inner h1 {
+    color: #000;
+    font-family: a;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  #loginform-mobile #mobile-form-inner form {
+    margin-top: 2rem;
+  }
+
+  #loginform-mobile #mobile-form-inner form input {
+    border-radius: 2px 2px 0px 0px;
+    border: 1px solid #d9d9db;
+    background: #f7f8fa;
+    padding: 1.5rem 2rem;
+    min-width: 49% !important;
+  }
+  #loginform-mobile #mobile-form-inner form button {
+    width: 45%;
+    height: 6rem;
+    border-radius: 2rem;
+    background: #2f6ce5;
+    color: #fff;
+    text-align: center;
+    font-family: a;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    border: none;
+    outline: none;
+    margin-top: 2.5rem;
+  }
+
+  #loginform-mobile #mobile-form-inner form #form-btns {
+    width: 100%;
+    margin-top: 2.5rem;
+    background: #fff;
+    color: #000;
+    font-family: a;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  #loginform-mobile #mobile-form-inner form #form-btns #btn-content {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 2px;
+    border: 0.6px solid #d9d9db;
+    padding: 1rem 0;
+  }
+
+  form h5 {
+    color: #212529;
+    text-align: center;
+    font-family: a;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 145.455% */
+    letter-spacing: -0.088px;
+  }
+
+  form #signin-span {
+    color: #495057;
+    text-align: center;
+    font-family: a;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-left: 34%;
+  }
+
+  form #createacc-span {
+    color: #495057;
+    text-align: right;
+    font-family: a;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-left: 20%;
+  }
+
+  #mobile-form-inner #form-close {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 6%;
+    top: 3%;
+  }
+  #blog-profile-r span {
+    display: none;
+  }
+}

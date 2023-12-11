@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/3997f395c0.js"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="MediaQuaries.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="registerform">
+        <div id="registerformModal" class="modal">
+          <div class="close">
+            <img src="./Assets/baseline-cancel-24-px.svg" alt="" />
+          </div>
+          <!-- Modal content -->
+          <div class="modal-content">
+            <p>
+              Let's learn, share & inspire each other with our passion for
+              computer engineering. Sign up now 🤘🏼
+            </p>
+            <div class="modal-content-inner">
+              <div class="modal-content-l">
+                <h1>Create Account</h1>
+                <form action="#">
+                  <input
+                    type="text"
+                    placeholder="First Name"
+                    style="width: 35%" />
+                  <input
+                    type="text"
+                    placeholder="Last Name"
+                    style="width: 35%" />
+                  <br />
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    style="width: 70.5%" />
+                  <br />
+                  <input
+                    type="password"
+                    placeholder="Password"
+                    style="width: 70.5%" />
+                  <br />
+                  <input
+                    type="password"
+                    placeholder="Confirm Password"
+                    style="width: 70.5%" />
+                  <br />
+                  <button type="submit" class="btn">Create Account</button>
+                  <div id="form-btns">
+                    <div id="btn-content">
+                      <img src="./Assets/f-logo-rgb-blue-1024.png" alt="" />
+                      <span>Sign up with Facebook</span>
+                    </div>
+                    <div id="btn-content">
+                      <img src="./Assets/search.png" alt="" />
+                      <span>Sign up with Google</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-content-r">
+                <p id="action">Already have an account? <span>Sign In</span></p>
+                <img
+                  src="./Assets/atg-illustration.png"
+                  style="height: 27rem; margin-left: 5rem" />
+                <p id="p-term">
+                  By signing up, you agree to our Terms & conditions, Privacy
+                  policy
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="loginform">
+        <div id="loginformModal" class="modal">
+          <div class="close">
+            <img src="./Assets/baseline-cancel-24-px.svg" alt="" />
+          </div>
+          <!-- Modal content -->
+          <div class="modal-content">
+            <p>
+              Let's learn, share & inspire each other with our passion for
+              computer engineering. Sign up now 🤘🏼
+            </p>
+            <div class="modal-content-inner">
+              <div class="modal-content-l">
+                <h1>Sign In</h1>
+                <form action="#">
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    style="width: 70.5%" />
+                  <br />
+                  <input
+                    type="password"
+                    placeholder="Password"
+                    style="width: 70.5%" />
+                  <button type="submit" class="btn">Sign In</button>
+                  <div id="form-btns">
+                    <div id="btn-content">
+                      <button>
+                        <img src="./Assets/f-logo-rgb-blue-1024.png" alt="" />
+                        <span>Sign up with Facebook</span>
+                      </button>
+                    </div>
+                    <div id="btn-content">
+                      <button>
+                        <img src="./Assets/search.png" />
+                        <span>Sign up with Google</span>
+                      </button>
+                    </div>
+                  </div>
+                  <h4>Forgot Password?</h4>
+                </form>
+              </div>
+              <div class="modal-content-r">
+                <p id="action">
+                  Don’t have an account yet? <span>Create new for free!</span>
+                </p>
+                <img
+                  src="./Assets/atg-illustration.png"
+                  style="height: 27rem; margin-left: 5rem" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="registerform-mobile">
+        <div id="mobile-form-inner">
+          <h1>Create Account</h1>
+          <img
+            id="form-close"
+            src="./Assets/baseline-cancel-242-px.svg"
+            alt="" />
+          <form action="#">
+            <input type="text" placeholder="First Name" style="width: 35%" />
+            <input type="text" placeholder="Last Name" style="width: 35%" />
+            <br />
+            <input type="email" placeholder="Email" style="width: 98.5%" />
+            <br />
+            <input
+              type="password"
+              placeholder="Password"
+              style="width: 98.5%" />
+            <br />
+            <input
+              type="password"
+              placeholder="Confirm Password"
+              style="width: 98.5%" />
+            <br />
+            <div>
+              <button type="submit" class="btn">Create Account</button>
+              <span id="signin-span">or, Sign In</span>
+            </div>
+            <div id="form-btns">
+              <div id="btn-content">
+                <img
+                  style="width: 16px; height: 16px"
+                  src="./Assets/f-logo-rgb-blue-1024.png"
+                  alt="" />
+                <span>Sign up with Facebook</span>
+              </div>
+              <div id="btn-content">
+                <img
+                  style="width: 16px; height: 16px"
+                  src="./Assets/search.png"
+                  alt="" />
+                <span>Sign up with Google</span>
+              </div>
+            </div>
+            <h5>
+              By signing up, you agree to our Terms & <br />
+              conditions, Privacy policy
+            </h5>
+          </form>
+        </div>
+      </div>
+      <div id="loginform-mobile">
+        <div id="mobile-form-inner">
+          <h1>Create Account</h1>
+          <img
+            id="form-close"
+            src="./Assets/baseline-cancel-242-px.svg"
+            alt="" />
+          <form action="#">
+            <input type="email" placeholder="Email" style="width: 98.5%" />
+            <br />
+            <input
+              type="password"
+              placeholder="Password"
+              style="width: 98.5%" />
+            <br />
+            <div>
+              <button type="submit" class="btn">Sign In</button>
+              <span id="createacc-span">or, Create Account</span>
+            </div>
+            <div id="form-btns">
+              <div id="btn-content">
+                <img
+                  style="width: 16px; height: 16px"
+                  src="./Assets/f-logo-rgb-blue-1024.png"
+                  alt="" />
+                <span>Sign in with Facebook</span>
+              </div>
+              <div id="btn-content">
+                <img
+                  style="width: 16px; height: 16px"
+                  src="./Assets/search.png"
+                  alt="" />
+                <span>Sign in with Google</span>
+              </div>
+            </div>
+            <h5>Forgot Password?</h5>
+          </form>
+        </div>
+      </div>
+      <div id="nav">
+        <img id="logo" src="./Assets/whole.png" alt="" />
+        <form id="search-bar">
+          <img src="./Assets/baseline-search-24px.png" alt="" />
+          <input
+            type="text"
+            placeholder="Search for your favorite groups in ATG" />
+        </form>
+        <p>Create account. <span>It’s free! </span></p>
+        <div id="nav-username">
+          <img src="./Assets/rectangle-10.png" alt="" />
+          <h4>Siddharth Goyal</h4>
+          <img src="./Assets/baseline-arrow-drop-down-24-px.svg" alt="" />
+        </div>
+        <div id="icons">
+          <img src="./Assets/group-3.svg" alt="" />
+        </div>
+      </div>
+      <div id="section-1">
+        <img
+          id="back-arrow"
+          src="./Assets/icon-navigation-arrow-back-24-px.svg"
+          alt="" />
+        <button id="join-btn">Join Group</button>
+        <div id="image-wrapper">
+          <img src="./Assets/Rectangle 3.png" alt="" />
+        </div>
+        <div id="content">
+          <h1>Computer Engineering</h1>
+          <p>142,765 Computer Engineers follow this</p>
+        </div>
+      </div>
+      <div id="section-2">
+        <div id="head-info">
+          <h4>Posts(368)</h4>
+          <div id="head-info-r">
+            <h5>Filter: All</h5>
+            <img src="./Assets/baseline-arrow-drop-down-24-px.svg" alt="" />
+          </div>
+        </div>
+        <div id="content-left">
+          <div id="list">
+            <p id="bld">All Posts(32)</p>
+            <p>Article</p>
+            <p>Event</p>
+            <p>Education</p>
+            <p>Job</p>
+          </div>
+
+          <div id="blog">
+            <div id="blog-login-btn">
+              <button id="blog-login-btn-inner">
+                <div>
+                  <img src="./Assets//circle.svg" />
+                  <img
+                    src="./Assets/icon-image-edit-24-px.svg"
+                    style="width: 3.5rem; margin-right: 2.5rem" />
+                </div>
+              </button>
+            </div>
+            <img id="banner" src="./Assets/rectangle-5.png" alt="" />
+            <h2>✍️ Article</h2>
+            <h3>
+              What if famous brands had regular fonts? Meet RegulaBrands!
+              <span
+                ><img src="./Assets/baseline-more-vert-24-px.svg" alt=""
+              /></span>
+            </h3>
+            <p>
+              I’ve worked in UX for the better part of a decade. From now on, I
+              plan to rei…
+            </p>
+            <div id="blog-profile">
+              <div id="blog-profile-l">
+                <img id="profile" src="./Assets/rectangle-3.png" alt="" />
+                <h4>Sarthak Kamra</h4>
+              </div>
+              <div id="blog-profile-r">
+                <img
+                  id="eye"
+                  src="./Assets/icon-action-visibility-24-px.svg"
+                  alt="" />
+                <span id="#blog-profile-r">1.4k views</span>
+                <img id="share" src="./Assets/baseline-share-24-px.svg" />
+              </div>
+            </div>
+          </div>
+          <div id="blog">
+            <img id="banner" src="./Assets/rectangle-6.png" alt="" />
+            <h2>🔬️ Education</h2>
+            <h3>
+              Tax Benefits for Investment under National Pension Scheme launched
+              by Government
+              <span
+                ><img src="./Assets/baseline-more-vert-24-px.svg" alt=""
+              /></span>
+            </h3>
+            <p>
+              I’ve worked in UX for the better part of a decade. From now on, I
+              plan to rei…
+            </p>
+            <div id="blog-profile">
+              <div id="blog-profile-l">
+                <img id="profile" src="./Assets/rectangle-7.png" alt="" />
+                <h4>Sarah West</h4>
+              </div>
+              <div id="blog-profile-r">
+                <img
+                  id="eye"
+                  src="./Assets/icon-action-visibility-24-px.svg"
+                  alt="" />
+                <span id="#blog-profile-r">1.4k views</span>
+                <img
+                  id="share"
+                  src="./Assets/baseline-share-24-px.svg"
+                  alt="" />
+              </div>
+            </div>
+          </div>
+          <div id="blog" class="blog-4" style="height: 30%">
+            <img id="banner" src="./Assets/rectangle-8.png" alt="" />
+            <h2>🗓️ Meetup</h2>
+            <h3>
+              Finance & Investment Elite Social Mixer @Lujiazui
+              <span
+                ><div class="dropdown">
+                  <button class="dropbtn">
+                    <img
+                      src="./Assets/baseline-more-vert-24-px.svg"
+                      alt=""
+                      style="background-color: white" />
+                  </button>
+                  <div class="dropdown-content">
+                    <p id="drop-p">Edit</p>
+                    <p id="drop-p">Report</p>
+                    <p id="drop-p">Option 3</p>
+                  </div>
+                </div></span
+              >
+            </h3>
+            <div id="info">
+              <div class="div">
+                <img src="./Assets/baseline-today-24-px.svg" alt="" />
+                <span>Fri, 12 Oct, 2018</span>
+              </div>
+              <div class="div">
+                <img src="./Assets/outline-location-on-24-px.svg" alt="" />
+                <span>Ahmedabad, India</span>
+              </div>
+            </div>
+            <button id="btn">Visit Website</button>
+            <div id="blog-profile">
+              <div id="blog-profile-l">
+                <img id="profile" src="./Assets/rectangle-9.png" alt="" />
+                <h4>Ronal Jones</h4>
+              </div>
+              <div id="blog-profile-r">
+                <img
+                  id="eye"
+                  src="./Assets/icon-action-visibility-24-px.svg"
+                  alt="" />
+                <span id="#blog-profile-r">1.4k views</span>
+                <img
+                  id="share"
+                  src="./Assets/baseline-share-24-px.svg"
+                  alt="" />
+              </div>
+            </div>
+          </div>
+          <div id="blog" class="blog-5" style="height: 15%">
+            <h2>💼️ Job</h2>
+            <h3>
+              Software Developer
+              <span
+                ><img src="./Assets/baseline-more-vert-24-px.svg" alt=""
+              /></span>
+            </h3>
+            <div id="info">
+              <div class="div">
+                <img src="./Assets/outline-work-outline-24-px.svg" alt="" />
+                <span>Innovaccer Analytics Private Ltd.</span>
+              </div>
+              <div class="div">
+                <img src="./Assets/outline-location-on-24-px.svg" alt="" />
+                <span>Noida, India</span>
+              </div>
+            </div>
+            <button id="btn" class="btn-2" style="color: #02b875">
+              Apply on Timesjobs
+            </button>
+            <div id="blog-profile">
+              <div id="blog-profile-l">
+                <img id="profile" src="./Assets/rectangle-10.png" alt="" />
+                <h4>Joseph Gray</h4>
+              </div>
+              <div id="blog-profile-r">
+                <img
+                  id="eye"
+                  src="./Assets/icon-action-visibility-24-px.svg"
+                  alt="" />
+                <span id="#blog-profile-r">1.4k views</span>
+                <img
+                  id="share"
+                  src="./Assets/baseline-share-24-px.svg"
+                  alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="content-right">
+          <div id="btns">
+            <button style="display: flex; align-items: center">
+              Write a Post
+              <img src="./Assets/baseline-arrow-drop-down-24-px.svg" alt="" />
+            </button>
+            <button
+              id="grp-status"
+              style="
+                background: #2f6ce5;
+                display: flex;
+                align-items: center;
+                color: #ffffff;
+              ">
+              <img
+                style="margin-right: 6px"
+                src="./Assets/baseline-group-add-24-px.svg" />
+              Join Group
+            </button>
+          </div>
+
+          <div id="loc">
+            <img
+              id="img-1"
+              style="margin-right: 2%"
+              src="./Assets/outline-location-on-24-px.svg"
+              alt="" />
+            <span style="margin-right: 50%">Noida, India</span>
+            <img id="img-2" src="./Assets/baseline-edit-24-px.svg" alt="" />
+          </div>
+          <div id="info">
+            <img src="./Assets/baseline-error-outline-24-px.svg" alt="" />
+            <span
+              >Your location will help us serve better <br />
+              &nbsp &nbsp &nbsp &nbsp and extend a personalised
+              experience.</span
+            >
+          </div>
+          <div id="groups">
+            <h2>
+              <img src="./Assets/twotone-thumb-up-24-px.svg" alt="" />
+              REcommended Groups
+            </h2>
+            <div id="group-inner">
+              <img src="./Assets/rectangle-11.png" alt="" />
+              <h3>Leisure</h3>
+              <button id="flw-btn">Follow</button>
+            </div>
+            <div id="group-inner">
+              <img src="./Assets/rectangle-12.png" alt="" />
+              <h3>Activism</h3>
+              <button id="flw-btn">Follow</button>
+            </div>
+            <div id="group-inner">
+              <img src="./Assets/rectangle-13.png" alt="" />
+              <h3>MBA</h3>
+              <button id="flw-btn">Follow</button>
+            </div>
+            <div id="group-inner">
+              <img src="./Assets/rectangle-14.png" alt="" />
+              <h3>Philosophy</h3>
+              <button id="flw-btn">Follow</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
